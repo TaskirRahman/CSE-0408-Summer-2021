@@ -96,7 +96,7 @@ while(1)
 printf("Please Enter Initial State:\nFor example:283164705 stands for\nHere 0 means blank position\n"
 "2 8 3\n"
 "1 6 4\n"
-"7 5\n");
+"7   5\n");
 
 char temp[10];
 scanf("%s",temp);
@@ -108,7 +108,7 @@ origin[i]=temp[i]-'0';
 
 printf("Please Enter Goal State:\nFor example:123804765 stands for\nHere 0 means blank position\n"
 "1 2 3\n"
-"8 4\n"
+"8   4\n"
 "7 6 5\n");
 scanf("%s",temp);
 int j=0;
